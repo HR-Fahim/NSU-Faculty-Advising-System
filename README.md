@@ -1,22 +1,6 @@
 # About
 
-The Faculty Advising System is a system developed using React.js as the frontend framework and Django as the backend framework for NSU offical work purpose. Firebase is used to store data in a real-time database, and Firebase Authentication is implemented for login and sign-up functionality.
-
-## Login and Course Request Process
-
-The system provides a login feature for faculties to access their accounts using faculty initials and RDS passwords. After logging in, faculties can fill out a form on a dedicated webpage to request courses for the upcoming semester. The submitted forms are saved in the database, and the admin is notified via email with faculty information. The email notifications can be customized by the admin.
-
-## Admin Management Capabilities
-
-The admin can log in and view a table-form that lists all the filled forms submitted by faculties. The admin has the authority to set the time and section for each course based on faculty requests, following department rules. When multiple faculties request the same section, the admin can use an automation feature to streamline the process.
-
-## Streamlined Automation Process
-
-If multiple faculties express interest in the same course section, the system sends email notifications to inform the faculties. The faculties fill out a form with available course choices, which are stored in the database. The admin can review this list from the 'table-request' page. The admin fills out the timeset form on the 'timeset' page to set the final timing schedule. Faculty initials are assigned randomly from the requested table for courses, ensuring compliance with department rules. In case of multiple faculties assigned to the same course section, an alert is sent to the admin. The admin adds a 'SENIOR TO JUNIOR.txt' file listing faculty names in senior to junior order. Clicking the 'auto' button triggers the automation process, populating faculty initials on the timeset page according to section and seniority. This automation feature simplifies the admin's work and improves efficiency. After completing the automation, the admin submits the data, which is saved in the database. The table results are displayed on the 'table-admin' page, where the admin can further automate and sort the list according to course names.
-
-## Additional Features and Flexibility
-
-The admin has the ability to edit specific fields in the submitted table if any mistakes are identified. Faculties can access their respective pages after logging in, where their assigned timings are displayed.
+The Faculty Advising System is a system developed using React.js as the frontend framework and Django as the backend framework for NSU official work purposes. Firebase stores data in a real-time database, and Firebase Authentication is implemented for login and sign-up functionality.
 
 ## Project Details
 
@@ -44,7 +28,25 @@ This system was designed for the NSU ECE department under the supervision of fac
 
 By incorporating these additional descriptions, the explanation provides a more comprehensive and detailed understanding of the system's features and their significance within the context of faculty advising in the NSU ECE department.
 
-## License
+# Workflow
+
+## Login and Course Request Process
+
+The system provides a login feature for faculties to access their accounts using faculty initials and RDS passwords. After logging in, faculties can fill out a form on a dedicated webpage to request courses for the upcoming semester. The submitted forms are saved in the database, and the admin is notified via email with faculty information. The email notifications can be customized by the admin.
+
+## Admin Management Capabilities
+
+The admin can log in and view a 'table-form' that lists all the filled forms submitted by faculties. The admin has the authority to set the time and section for each course based on faculty requests, following department rules. When multiple faculties request the same section, the admin can use an automation feature to streamline the process.
+
+## Streamlined Automation Process
+
+If multiple faculties express interest in the same course section, the system sends email notifications to inform the faculties. The faculties fill out a form with available course choices, which are stored in the database. The admin can review this list from the 'table-request' page. The admin fills out the timeset form on the 'timeset' page to set the final timing schedule. Faculty initials are assigned randomly from the requested table for courses, ensuring compliance with department rules. In case of multiple faculties are assigned to the same course section, an alert is sent to the admin. The admin adds a 'SENIOR TO JUNIOR.txt' file listing faculty names in senior to junior order. Clicking the 'auto' button triggers the automation process, populating faculty initials on the timeset page according to section and seniority. This automation feature simplifies the admin's work and improves efficiency. After completing the automation, the admin submits the data, which is saved in the database. The table results are displayed on the 'table-admin' page, where the admin can further automate and sort the list according to course names.
+
+## Additional Features and Flexibility
+
+The admin has the ability to edit specific fields in the submitted table if any mistakes are identified. Faculties can access their respective pages after logging in, where their assigned timings are displayed.
+
+# License
 
 [MIT License](LICENSE)
 
