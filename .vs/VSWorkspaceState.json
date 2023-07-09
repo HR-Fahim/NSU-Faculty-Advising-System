@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\main"
+    "\\main",
+    "\\Sample Preview",
+    "\\TEST FILES CSE 299"
   ],
-  "SelectedNode": "\\main\\db.sqlite3",
   "PreviewInSolutionExplorer": false
 }
