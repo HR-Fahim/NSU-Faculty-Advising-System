@@ -6,7 +6,7 @@ The Faculty Advising System is a system developed using React.js as the frontend
 
 ## Project Details
 
-This system was designed for the NSU ECE department under the supervision of faculty member respected Nova Ahmed mam. The main objective was to automate and simplify the advising system for faculty advisors in the NSU ECE department. The project included all faculties within the ECE department.
+This system was designed for the NSU ECE department under the supervision of faculty member respected Nova Ahmed Mam. The main objective was to automate and simplify the advising system for faculty advisors in the NSU ECE department. The project included all faculties within the ECE department.
 
 ## Key Features:
 
