@@ -2,9 +2,11 @@
 
 The Faculty Advising System is a system developed using React.js as the frontend framework and Django as the backend framework for NSU official work purposes. Firebase stores data in a real-time database, and Firebase Authentication is implemented for login and sign-up functionality.
 
+<sub> ****P.S.*** The project was completed under CSE299 (Junior Design) course offered by North South University.*<sub/>
+
 ## Project Details
 
-This system was designed for the NSU ECE department under the supervision of faculty member Nova Ahmed. The main objective was to automate and simplify the advising system for faculty advisors in the NSU ECE department. The project included all faculties within the ECE department.
+This system was designed for the NSU ECE department under the supervision of faculty member respected Nova Ahmed Mam. The main objective was to automate and simplify the advising system for faculty advisors in the NSU ECE department. The project included all faculties within the ECE department.
 
 ## Key Features:
 
